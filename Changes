@@ -1,0 +1,14 @@
+Revision history for WWW-Mechanize-Chrome-Webshot
+
+0.01    2025/07/31
+        First version, released on an unsuspecting world.
+0.02    2025/08/01
+        Pod fixes.
+0.03    2025/08/21
+        Modified t/300-exif-local-site.t to verify correct exif metadata insertion to both PNG and PDF output images.
+        Pod fixes.
+0.04    2025/09/02
+        It now logs to a Mojo::Log which by default dumps to STDERR/STDOUT.
+0.05    2025/09/04
+        Breaking change: constructor parameter 'logger' is replaced by 'logger-object'. It is used to pass a logger object (which implements methods error(), warn() and info()) on to the constructed instance.
+
